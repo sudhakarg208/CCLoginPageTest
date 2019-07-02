@@ -45,8 +45,8 @@ public class LoginPageTest extends TestBase{
 	
 	@Test
 	public void loginTest() {
-		System.out.println("Hiiiiiiiiiiiiiiiiiiiiiiiiiii" + login);
-		login.validateLogin("su","gw");
+		System.out.println("Hiiiiiiiiiiiiiiiiiiiiiiiiiii" + System.getProperty("username"));
+		login.validateLogin(System.getProperty("username"),System.getProperty("password"));
 	}
 	
 	@AfterMethod

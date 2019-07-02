@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.805 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.993 s <<< FAILURE! - in TestSuite
+loginTest(gw.qa.guidewiretest.LoginPageTest)  Time elapsed: 10.207 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at gw.qa.guidewiretest.LoginPageTest.loginTest(LoginPageTest.java:49)
+

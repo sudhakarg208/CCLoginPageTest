@@ -23,6 +23,11 @@
 							testng.xml
 						</suiteXmlFile>
 					</suiteXmlFiles>
+					
+					<systemPropertyVariables>
+					<usrName>${username}</usrName>
+					<Pwd>${password}</Pwd>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>

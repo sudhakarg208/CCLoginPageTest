@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Guidewire application suite]">
+  <test name="Guidewire claimcenter login page test(failed)">
+    <classes>
+      <class name="gw.qa.guidewiretest.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- gw.qa.guidewiretest.LoginPageTest -->
+    </classes>
+  </test> <!-- Guidewire claimcenter login page test(failed) -->
+</suite> <!-- Failed suite [Guidewire application suite] -->
