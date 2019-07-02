@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Guidewire application suite" duration-ms="23254" started-at="2019-07-02T05:22:49Z" finished-at="2019-07-02T05:23:12Z">
+    <groups>
+    </groups>
+    <test name="Guidewire claimcenter login page test" duration-ms="23254" started-at="2019-07-02T05:22:49Z" finished-at="2019-07-02T05:23:12Z">
+      <class name="gw.qa.guidewiretest.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gw.qa.guidewiretest.LoginPageTest@64616ca2]" name="setUp" is-config="true" duration-ms="10227" started-at="2019-07-02T10:52:49Z" finished-at="2019-07-02T10:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:gw.qa.guidewiretest.LoginPageTest@64616ca2]" name="loginTest" duration-ms="12293" started-at="2019-07-02T10:52:59Z" finished-at="2019-07-02T10:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gw.qa.guidewiretest.LoginPageTest@64616ca2]" name="tearDown" is-config="true" duration-ms="719" started-at="2019-07-02T10:53:11Z" finished-at="2019-07-02T10:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gw.qa.guidewiretest.LoginPageTest -->
+    </test> <!-- Guidewire claimcenter login page test -->
+  </suite> <!-- Guidewire application suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Guidewire application suite">
+	<test name="Guidewire claimcenter login page test">
+	<classes>
+			<class name="gw.qa.guidewiretest.LoginPageTest" />
+	</classes>
+	</test>
+</suite>
